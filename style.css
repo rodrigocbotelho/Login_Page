@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+  background: #1A2222;
+}
+.login-title{
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+.username, .senha{
+  background: transparent;
+  transition: 500ms;
+  margin: 10px 3rem;
+  width: 90%;
+  height: 3rem;
+  border-radius: px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 2px solid #323e45;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  font-weight: bolder;
+}
+.login-section{
+  left: 50%;
+  position: absolute;
+  top: 15%;
+  transform: translateX(-50%);
+  border: 2px solid transparent;
+  background: #1d1d1d;
+  width: 330px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 55px #0DB8DE;
+  transition: 200ms;
+}
+.login-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65%;
+  width: 99%;
+}
+.forgot-section a{
+  width: 90%;
+  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: gray;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.forgot-section{
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.forgot-section a:hover{
+  color:#fff;
+  transition: 200ms;
+}
+.pass{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.section-send{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.send-message{
+  font-size: 1em;
+  color: #fff;
+  width: 70%;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 15px;
+  background: transparent;
+  border: 2px solid #0DB8DE;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: 200ms;
+}
+.send-message:hover{
+  transition: 300ms;
+  background: #0DB8DE;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+input::placeholder{
+  margin: 98px;
+  color: #ccd2c6;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.men-boa{
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 90%;
+}
+.usename-in a{
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.15em;
+  font-weight: bolder;
+  padding: 5px;
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  text-decoration: none;
+  line-height: 35px;
+}
